@@ -32,7 +32,7 @@
 /* ====== Page ====== */
 body {
   min-height: 100vh;
-  background-image: url(Images/earth-2254769_960_720.jpg);
+  background-image: url(Images/turbine-590354_1280.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -115,7 +115,7 @@ a.btn {
 .btn-primary {
   background-color: var(--accent);
   border-color: var(--accent);
-  color: #ffffffb9;
+  color: #ffffffd8;
 }
 
 .btn-primary:hover {
