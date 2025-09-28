@@ -2,15 +2,15 @@
    LIGHT THEME — EDIT THESE 5
    ============================= */
 :root {
-  --bg: #EFDDFD;
+  --bg: #dedff5;
   /* page background */
-  --text: #210934;
+  --text: #000000;
   /* main text */
-  --surface: #F6EAFF;
+  --surface: #fafafa96;
   /* cards, boxes, list items */
-  --nav: #36065B;
+  --nav: #003097e5;
   /* navbar (dark bar) */
-  --accent: #7C3AED;
+  --accent: #2b51a3;
   /* links & primary buttons */
 }
 
@@ -23,15 +23,19 @@
   --accent-hover: color-mix(in srgb, var(--accent) 85%, black);
   --on-nav: #FFFFFF;
   /* text on dark navbar */
-  --border: #E6D6FF;
+  --border: #d6dcffad;
   /* soft borders */
-  --hero: #F1E8FF;
+  --hero: #fafafa96;
   /* jumbotron/hero bg */
 }
 
 /* ====== Page ====== */
 body {
-  background: var(--bg);
+  min-height: 100vh;
+  background-image: url(Images/earth-2254769_960_720.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   color: var(--text);
 }
 
@@ -39,6 +43,7 @@ body {
 .site-nav {
   background: var(--nav);
   color: var(--on-nav);
+  backdrop-filter: blur(25px);
 }
 
 .site-nav .navbar-brand,
@@ -62,6 +67,7 @@ body {
 /* ====== Hero (“jumbotron”) ====== */
 .bg-body-tertiary {
   background-color: var(--hero) !important;
+  backdrop-filter: blur(25px);
   color: var(--text);
 }
 
@@ -69,6 +75,7 @@ body {
 .card,
 .box {
   background: var(--surface);
+  backdrop-filter: blur(25px);
   color: var(--text);
   border: 1px solid var(--border);
   border-radius: .5rem;
@@ -82,6 +89,7 @@ body {
 .list-group,
 .list-group-item {
   background: var(--surface);
+  backdrop-filter: blur(25px);
   color: var(--text);
   border-color: var(--border);
 }
@@ -107,7 +115,7 @@ a.btn {
 .btn-primary {
   background-color: var(--accent);
   border-color: var(--accent);
-  color: #fff;
+  color: #ffffffb9;
 }
 
 .btn-primary:hover {
