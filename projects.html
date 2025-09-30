@@ -10,6 +10,14 @@
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
 
     <link href="style.css" rel="stylesheet">
+    <style>
+        img {
+      width: 400px;
+      height: auto; /* Height will adjust proportionally */
+      display: block; /* Images are inline by default, make it block */
+      margin: 0 auto; /* Sets left and right margins to auto, centering the image */
+        }
+    </style>
 </head>
 
 <!-- Toggle light-page ↔ dark-page -->
@@ -21,38 +29,32 @@
 
     <!-- Main content -->
     <main class="container py-4">
-        <h1 class="mb-2">Simple Theme in Action</h1>
-        <p class="mb-3">
-            This paragraph uses the page text color. Here’s a <a href="#">content link</a>.
-        </p>
 
         <!-- Hero -->
         <section class="p-5 mb-4 bg-body-tertiary rounded-3">
-            <h2 class="display-6 mb-3">Hero Section</h2>
-            <a class="btn btn-primary" href="#">Get Started</a>
+            <h2 class="display-6 mb-3">Projects</h2>
         </section>
 
         <!-- Box -->
+
         <div class="box mb-4">
-            <h3 class="h5">Plain Box</h3>
+            <h3 class="h5">Storage Organizer</h3>
+            <p class="mb-0">In my Technical Drawing class, we were given the task to to design and build a storage organizer of some sort. In the process, we learned how to use rendering programs, CAD softwares like Solid Works, and 3D printers</p>
+            <img src="StorageOrg/Assembly Render 2.png">
+        </div>
+
+        <div class="box mb-4">
+            <h3 class="h5">Colorado Robotics Challenge</h3>
             <p class="mb-0">This is a plain div styled as a surface. <a href="#">Read more</a></p>
         </div>
 
-        <!-- Card -->
-        <div class="card shadow-sm mb-4" style="max-width: 40rem;">
-            <div class="card-body">
-                <h4 class="card-title h5">Card Title</h4>
-                <p class="card-text">Cards pick up the surface/background and text from the theme.</p>
-                <a class="btn btn-primary" href="#">Card Action</a>
-            </div>
-        </div>
+        <section class="p-5 mb-4 bg-body-tertiary rounded-3">
+           <h2 class="display-6 mb-2">Hop to...</h2>
+            <a class="btn btn-primary" href="index.html" >Home</a>
+            <a class="btn btn-primary" href="about.html" >About</a>
+            <a class="btn btn-primary" href="experience.html" >Experience</a>
+        </section>  
 
-        <!-- List group -->
-        <ul class="list-group" style="max-width: 28rem;">
-            <li class="list-group-item">First item</li>
-            <li class="list-group-item">Second item</li>
-            <li class="list-group-item">Third item</li>
-        </ul>
     </main>
 
 
