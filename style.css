@@ -57,7 +57,7 @@ body {
 }
 
 .site-nav .navbar-toggler {
-  border-color: rgba(255, 255, 255, .35);
+  border-color: rgb(0, 0, 0);
 }
 
 .site-nav .navbar-toggler-icon {
